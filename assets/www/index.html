@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/base-style.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<title>bengui core</title>
+</head>
+<body>
+	<script type="text/javascript" src="js/libs/cordova-2.7.0.js"></script>
+	<script type="text/javascript" src="js/libs/jquery.js"></script>
+	<script type='application/javascript' src="js/libs/fastclick.js"></script>
+	<script type="text/javascript" src="js/libs/bengui-core.js"></script>
+	<script type="text/javascript" src="js/modules/index-controller.js"></script>
+	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+		<!-- bring in the cordova facebook plugin -->
+		<script src="js/libs/cdv-plugin-fb-connect.js"></script>
+		
+		<!-- bring in the facebook js sdk -->
+		<script src="js/libs/facebook_js_sdk.js"></script>
+
+		<!-- bring in the facebook handler -->
+		<script type="text/javascript" src="js/libs/fb_handler.js"></script>
+	
+	<div id="global-side-menu">
+		<h2>Menu</h2>
+		<ul id="global-side-menu-options-list">
+			<li></li>
+			<li id="link_home">Home</li>
+			<li id="link_user">User</li>
+			<li id="link_gallery" >Gallery</li>
+			<li id="link_settings" >Settings</li>
+			<li id="link_maps" >Maps</li>
+			<li id="link_facebook" >Facebook</li>
+		</ul>
+	</div>		
+
+	<div id="global-navbar">
+		<div id="global-navbar-icon-back" >
+			<img  src="img/holo_dark/1_navigation_previous_item.png" />
+		</div>
+		<div>
+			<h2 id="global-navbar-title">Title</h2>
+		</div>
+		<div id="global-navbar-icon-menu" >
+			<img src="img/ic_action_overflow.png" />
+		</div>
+	</div>
+
+	<!--
+	<div id="global-menu">
+		<ul>
+			<li id="link_home">Home</li>
+			<li id="link_user">User</li>
+			<li id="link_gallery" >Gallery</li>
+			<li id="link_settings" >Settings</li>
+		</ul>
+	</div>
+	-->
+
+	<div id="index-container">
+	</div>
+
+	<!-- Activity Indicator - MUST GIVE STYLE -->
+	<div id="loading">
+		<div class="modal-backdrop fade in"></div>	
+		<div class="modal">
+			<img src="img/ajax-loader.gif">
+		</div>
+	</div>
+
+</body>
+</html>

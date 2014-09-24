@@ -1,0 +1,142 @@
+/*
+
+	GLOBAL
+
+*/
+
+
+body{
+	padding-left: 0px;
+	padding-right: 0px;
+	font-family: verdana, arial, sans-serif;
+	margin: 0px;
+}
+
+
+
+.normal-padding{
+	padding: 20px;
+}
+
+.center-align{
+
+}
+
+/*
+
+	NAVBAR
+
+*/
+
+#global-navbar{
+	padding-top: 10px;
+	color:gray;
+	background: black;
+	position:fixed;
+	height: 80px;
+	width: 100%;
+	top: 0px;
+}
+
+
+#global-navbar-icon-menu{
+	float: right;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#global-navbar-icon-back{
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#global-navbar-title{
+	float: left;
+	width: 200px;
+	padding-left: 20px;
+}
+
+
+
+/*
+
+	MENU
+
+*/
+
+
+
+#global-menu{
+	position:fixed;
+	right: 0px;
+	top: 100px;
+	min-width: 300px;
+	background-color: black;
+	margin-left: -20px;
+	margin-right: -20px;
+	margin-top: -20px;
+}
+
+#global-menu ul{
+	list-style-type: none;
+	padding:0px;
+	margin:0px;
+}
+
+#global-menu li{
+	font-size: 1.5em;
+	padding: 30px;
+	border-bottom: thin solid gray;
+	color: gray;
+}
+
+
+
+
+/*
+
+	SIDE MENU
+
+*/
+
+
+
+#global-side-menu{
+	position:fixed;
+	z-index: 99;
+	left: 0px;
+	top: 0px;
+	width: 70%;
+	height: 100%;
+	background-color: black;
+	color: gray;
+}
+
+#global-side-menu ul{
+	list-style-type: none;
+	padding:0px;
+	margin:0px;
+}
+
+#global-side-menu li{
+	font-size: 1.5em;
+	padding: 30px;
+	border-bottom: thin solid gray;
+	color: gray;
+}
+
+
+
+
+
+/*
+
+	Index Container
+
+*/
+
+#index-container{
+	margin-top: 110px;
+	width: 100%;
+}
